@@ -1,0 +1,8 @@
+# Set the line endings to LF for all JSON files
+*.json eol=lf
+
+# Set the line endings to LF for all YAML files
+*.yaml eol=lf
+
+# Set the line endings to LF for all text files
+*.txt eol=lf
