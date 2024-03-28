@@ -1,9 +1,8 @@
-// pages/api/auth/[...nextauth].js
-
 import NextAuth from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 
-const authOptions = {
+// Add this line to export authOptions as a named export
+export const authOptions = {
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
@@ -15,5 +14,3 @@ const authOptions = {
 };
 
 export default NextAuth(authOptions);
-
-
