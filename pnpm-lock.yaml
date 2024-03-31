@@ -30,7 +30,7 @@ dependencies:
     specifier: 13.1.6
     version: 13.1.6(react-dom@18.2.0)(react@18.2.0)
   next-auth:
-    specifier: ^4.19.2
+    specifier: ^4.24.7
     version: 4.24.7(next@13.1.6)(react-dom@18.2.0)(react@18.2.0)
   openai:
     specifier: ^3.2.1
